@@ -19,3 +19,9 @@ console.log(number);
 
 const number2 = [10,40,50,100]
 console.log(number2);
+
+const string = []
+string.push ("This is an array string")
+string.push ("Those are array lines")
+
+console.log(string);
