@@ -1,4 +1,4 @@
 x = 1
-y = "name"
+y = 2
 
-print(x)
+print(x+y)
