@@ -7,8 +7,10 @@ const people = {
     day : 5,
     address : {
         home : "Dhaka",
-        office : "Mirpur"
-    }
+        office : "Mirpur",
+        interest : ["Coding", "Testing", "Playing"]
+    },
+    location : ["Dhanmondi", "Khilkhet", "Kalapani"]
 };
 
 people.name = "Bappi";
