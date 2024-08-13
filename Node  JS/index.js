@@ -68,3 +68,62 @@ console.log(number);
 
 const number2 = [10,40,50,100]
 console.log(number2);
+
+
+
+
+//Basic Forloop 
+
+/**Let define an array for loop call */
+const items = [];
+items.push(10);
+items.push(71);
+items.push(85.36);
+items.push(65);
+
+for (
+    i = 0; i<items.length; i++ //if want to increment 2 times it should be i = i+2
+){
+    console.log("Check by foor_loop: "+ items[i]);
+}
+
+
+/**ForeachLoop: foreachloop is very important for advance automation related tasks */
+const array = [];
+array.push(36);
+array.push(10);
+array.push(41);
+array.push(54);
+
+for (
+    const item of array
+){
+    console.log(array);
+}
+////////////////////////////////////////////////////
+const array_2 = [10,20,30,40];
+
+for (
+    const item of array_2
+){
+    console.log("Check by foor_loop: "+array_2);
+}
+
+//Basic While Loop
+
+const wloop = []
+wloop.push(10)
+wloop.push(100)
+wloop.push(1000)
+
+j=0;
+while(
+    j<wloop.length
+){
+    console.log("Print Using While Loop: " + wloop[j]);
+    j++
+    //i=i+4;
+}
+
+
+

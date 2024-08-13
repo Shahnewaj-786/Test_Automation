@@ -1,9 +1,9 @@
 /**ForeachLoop: foreachloop is very important for advance automation related tasks */
-const array = [];
-array.push(36);
-array.push(10);
-array.push(41);
-array.push(54);
+const array = []
+array.push(36)
+array.push(10)
+array.push(41)
+array.push(54)
 
 for (
     const item of array
@@ -23,9 +23,9 @@ for (
 
 
 
-const array3 = [];
-array3.push(326);
-array3.push(120);
+const array3 = []
+array3.push(326)
+array3.push(120)
 
 for (
     const item of array3
