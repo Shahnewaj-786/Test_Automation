@@ -16,8 +16,8 @@ describe('template spec', () => {
     cy.get('.mui-style-llswic > a').click()
     cy.get(':nth-child(1) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('First', {delay: 10})
     cy.get(':nth-child(2) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('Name', {delay: 10})
-    cy.get(':nth-child(3) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('bd@gmail.com', {delay: 10})
-    cy.get('.form-control').type('{backspace}8801621720045', {delay: 10})
+    cy.get(':nth-child(3) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('bd3@gmail.com', {delay: 10})
+    cy.get('.form-control').type('{backspace}8801621720047', {delay: 100}) // For change country code, here user backspace and then type a number 
     cy.get(':nth-child(5) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('12345678', {delay: 10})
     cy.get(':nth-child(6) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('12345678', {delay: 10})
     cy.get('.PrivateSwitchBase-input').click()
