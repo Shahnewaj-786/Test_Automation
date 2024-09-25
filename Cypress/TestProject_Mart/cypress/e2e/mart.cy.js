@@ -1,6 +1,6 @@
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit('https://6ammart-react.6amtech.com/')
+    cy.visit('https://6ammart-react.6amtech.com/') 
     cy.get('.MuiStack-root > .MuiButton-contained').click()
     //cy.get('.MuiFormControl-root > .MuiInputBase-root').type("Dhanmondi")
     //cy.get(':nth-child(1) > .MuiPaper-root > .mui-style-49c7dn').click()
@@ -16,8 +16,8 @@ describe('template spec', () => {
     cy.get('.mui-style-llswic > a').click()
     cy.get(':nth-child(1) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('First', {delay: 10})
     cy.get(':nth-child(2) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('Name', {delay: 10})
-    cy.get(':nth-child(3) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('abcdef@gmail.com', {delay: 10})
-    cy.get('.form-control').type('122334499', {delay: 10})
+    cy.get(':nth-child(3) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('bd@gmail.com', {delay: 10})
+    cy.get('.form-control').type('{backspace}8801621720045', {delay: 10})
     cy.get(':nth-child(5) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('12345678', {delay: 10})
     cy.get(':nth-child(6) > .MuiBox-root > .MuiFormControl-root > .MuiInputBase-root').type('12345678', {delay: 10})
     cy.get('.PrivateSwitchBase-input').click()
