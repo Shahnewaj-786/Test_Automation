@@ -5,7 +5,7 @@
  */
 
 function s1(){
-    console.log ("This is S1SSS function for print")
+    console.log ("This is S1 function for print")
 }
 s1(); //This will print s1 function
 
@@ -25,3 +25,23 @@ function s4() {
 
 const x = s4();
 console.log(x);
+
+
+
+//Functions are print by its serial of call. If there are two functions a() and b() and if we call b() first it will print b() then it will print a()
+
+function displayFunction(myText){
+    console.log(myText);
+}
+
+function displayFirst(){
+    displayFunction("Hello");
+}
+
+function displaySecond(){
+    displayFunction("Goodbye");
+}
+
+displaySecond();
+displayFirst();
+
