@@ -25,3 +25,8 @@ string.push ("This is an array string")
 string.push ("Those are array lines")
 
 console.log(string);
+
+
+const Dream = []
+string.push ("German Language")
+string.push ("Go German")
