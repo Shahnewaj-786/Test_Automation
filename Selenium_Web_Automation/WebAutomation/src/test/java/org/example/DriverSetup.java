@@ -6,14 +6,14 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 public class DriverSetup {
-    public WebDriver browser;
+    public WebDriver driver;
 
     @BeforeSuite
     public void openBrowser(){
-        browser = new ChromeDriver();
+        driver = new ChromeDriver();
     }
     @AfterSuite
     public void closeBrowser(){
-        browser.close();
+        driver.quit();
     }
 }
