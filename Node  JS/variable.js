@@ -9,6 +9,7 @@ let y = "Variable";
 
 let z = 90; 
 
+
 console.log(x);
 console.log(y);
 console.log(z);
@@ -44,4 +45,6 @@ let obj = {
 console.log("This is an object: ");
 console.log(obj);
 
+let h = 0
+console.log(h);
 

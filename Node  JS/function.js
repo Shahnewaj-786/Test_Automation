@@ -45,3 +45,18 @@ function displaySecond(){
 displaySecond();
 displayFirst();
 
+
+
+/*function greet(person) {
+    return `Hello, my name is ${person.name} and I am ${person.age} years old.`;
+}
+
+let person = { name: "John", age: 25 };
+console.log(greet(person));*/
+
+
+function greet(person) {
+    return `Hello, my name is ${person.name} and I am ${person.age} years old.`;
+}
+let person = { name: "John", age: 25 };
+console.log(greet(person));
