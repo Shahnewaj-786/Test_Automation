@@ -1,0 +1,23 @@
+API_Automation/Calculation Test/node_modules/
+/API_Automation/Calculation Test/package-lock.json  
+/API_Automation/Calculation Test/dist/
+/API_Automation/Calculation Test/package.json
+/API_Automation/Calculation Test/.env
+
+Cypress/CypressTest/node_modules/
+/Cypress/CypressTest/package-lock.json  
+/Cypress/CypressTest/dist/
+/Cypress/CypressTest/package.json
+/Cypress/CypressTest/.env
+.DS_Store
+
+Python/.pytest_cache
+Python/__pycache__
+Python/.vscode
+Python/venv
+Python/.env 
+Python/.mypy_cache
+Python/.idea
+
+
+
